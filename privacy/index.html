@@ -1,237 +1,333 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy · Nomira</title>
-<meta name="description" content="How Nomira collects, uses, and shares personal information.">
-<style>
-:root{--bg:#f7f7f5;--fg:#1c1d21;--muted:#5f626b;--line:#e2e2de;--accent:#3d4fd1}
-@media (prefers-color-scheme:dark){:root{--bg:#121316;--fg:#e8e8ea;--muted:#a0a3ab;--line:#2a2c31;--accent:#8e9bff;color-scheme:dark}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-main{max-width:720px;margin:0 auto;padding:48px max(20px,env(safe-area-inset-left)) 72px}
-a{color:var(--accent)}
-.brand{font-weight:700;letter-spacing:-.01em;text-decoration:none;color:var(--fg);font-size:1.1rem}
-h1{font-size:2rem;line-height:1.2;margin:28px 0 4px;letter-spacing:-.02em}
-.date{color:var(--muted);margin:0 0 20px}
-h2{font-size:1.3rem;margin:44px 0 10px;padding-top:12px;border-top:1px solid var(--line)}
-h3{font-size:1.02rem;margin:22px 0 6px}
-ul{padding-left:1.2em}
-li{margin:5px 0}
-.notice{border:1px solid var(--line);border-radius:10px;padding:14px 18px}
-.notice p{margin:0}
-.index ul{columns:2;column-gap:28px;padding-left:1.1em}
-@media (max-width:520px){.index ul{columns:1}}
-.tw{overflow-x:auto;margin:12px 0}
-table{width:100%;border-collapse:collapse;font-size:.92rem;min-width:620px}
-th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
-th{color:var(--muted);font-weight:600}
-address{font-style:normal}
-footer{margin-top:48px;color:var(--muted);font-size:.9rem}
-</style>
-</head>
-<body>
-<main>
-<a class="brand" href="/">Nomira</a>
-<h1>Privacy Policy</h1>
-<p class="date">Effective as of October 28, 2026.</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nomira Privacy Policy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700&family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main>
+      <header><a href="https://nomira.app">Nomira</a></header>
+      <h1>Privacy Policy</h1>
+      <p class="muted">Effective November 16, 2026</p>
 
-<div class="notice"><p><strong>California Notice at Collection/State Privacy Rights Notice:</strong> See the <a href="#state-privacy-rights">State privacy rights notice</a> section below for important information about your rights under applicable state privacy laws.</p></div>
+      <p>
+        Nomira is an iPhone app that helps you cut back on screen time. This policy explains what we collect,
+        why, who else handles it, how long we keep it, and how to delete it. "We" means the independent
+        developer who makes Nomira, named as the seller on Nomira's App Store page.
+      </p>
 
-<p>Nomira (&ldquo;<strong>Nomira</strong>,&rdquo; &ldquo;<strong>we</strong>,&rdquo; &ldquo;<strong>us</strong>&rdquo; or &ldquo;<strong>our</strong>&rdquo;) provides an iPhone application, currently in development, designed to help people reduce their screen time. This Privacy Policy describes how Nomira processes personal information that we collect through our digital or online properties or services that link to this Privacy Policy (including as applicable, our website at nomira.app, our waitlist sign-up form, and our email communications) as well as our marketing activities and other activities described in this Privacy Policy (collectively, the &ldquo;Service&rdquo;).</p>
-<p>The Nomira mobile application has not yet been released. Before it is released, we will update this Privacy Policy to describe the personal information processed through the application.</p>
+      <div class="card">
+        <strong>The short version.</strong> We collect only what the app needs to work. We never sell your
+        data, never show ads, and never use what you type to train AI models. Nomira is for ages 13 and up.
+        Nomira's AI is for adults only, and it only reads what you type if you say yes. Apple's Screen Time
+        keeps your exact app choices on your iPhone. You can erase what you typed, or delete your whole
+        account, inside the app.
+      </div>
 
-<nav class="index">
-<h3>Index</h3>
-<ul>
-<li><a href="#collect">Personal information we collect</a></li>
-<li><a href="#tracking">Tracking &amp; other technologies</a></li>
-<li><a href="#use">How we use your personal information</a></li>
-<li><a href="#retention">Retention</a></li>
-<li><a href="#share">How we share your personal information</a></li>
-<li><a href="#choices">Your choices</a></li>
-<li><a href="#other-sites">Other sites and services</a></li>
-<li><a href="#security">Security</a></li>
-<li><a href="#transfer">International data transfer</a></li>
-<li><a href="#children">Children</a></li>
-<li><a href="#changes">Changes to this Privacy Policy</a></li>
-<li><a href="#contact">How to contact us</a></li>
-<li><a href="#state-privacy-rights">State privacy rights notice</a></li>
-</ul>
-</nav>
+      <h2>What we collect</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>What</th>
+            <th>Why</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <strong>An account ID.</strong> A random ID created when you first open the app. If you sign in
+              with Apple, Apple confirms who you are; we don't ask Apple for your name or email. If we offer
+              email sign-in later and you use it, we keep your email address.
+            </td>
+            <td>To keep your plans, progress and subscription together, including on a new phone.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Your age group.</strong> You pick an age range when you start. We only keep whether you
+              are a teen (13 to 17) or an adult (18 or older). It is set once and can't be changed in the app.
+            </td>
+            <td>To keep the AI off for teens, and to turn away anyone under 13.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Your plans.</strong> Your block schedules (their names, days and times), your daily
+              limit, and a short code for each app, category or website you block. The code can't be turned
+              back into the app's name; the names stay on your iPhone.
+            </td>
+            <td>
+              So your rules hold: making a rule stricter works right away, and loosening it waits until
+              tomorrow. Our server keeps track of that, not your phone.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Your settings.</strong> Time zone, the AI's voice, your wait time, up to three goals, an
+              optional short note about yourself, how long to keep what you type (30 or 90 days), and switches
+              such as Commit mode, Strict mode and the slip warning.
+            </td>
+            <td>To run your plans at the right local times and to set up the app the way you chose.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Your AI choice.</strong> Whether you let Nomira's AI read what you type at the Door,
+              which AI company you agreed to, and when.
+            </td>
+            <td>So nothing you type goes to the AI unless you agreed.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Door activity.</strong> When you tried to open a blocked app and which one (from
+              Nomira's list), the pause you were shown and how it went, any reason or excuse you typed (up to
+              400 characters), the AI's reply and decision, times you closed the app, waited or used an
+              emergency pass, how long you were let in, and whether you said an unlock was worth it.
+            </td>
+            <td>
+              To make decisions at the Door, enforce your daily limits, learn which pauses work for you, spot
+              the hours you're most likely to slip, and show your progress and streak.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Step counts during a walk.</strong> Only while a walk is running, read from your
+              iPhone's motion sensor with your permission. We receive the number of steps, nothing else.
+            </td>
+            <td>To check you walked before giving you time. We don't track your location.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Block health.</strong> Whether Screen Time access is still on while a plan is active,
+              and which on-phone checks failed.
+            </td>
+            <td>
+              To tell you when your block may have slipped, and to notice when it's switched off mid-plan.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Subscription status.</strong> Whether you have Nomira Pro, whether it is active, and
+              when it ends or renews. Apple handles payment; we never see your card.
+            </td>
+            <td>To unlock the paid features and keep them working on all your devices.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Crash reports and usage events.</strong> Device model, iOS version, app version, crash
+              details, and events like "paywall viewed" or "walk finished", linked to your account ID. Events
+              only contain numbers, yes or no answers and fixed labels.
+            </td>
+            <td>
+              To fix crashes and understand which features help people. These never include what you type or
+              the names of apps you block.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        This comes from you, from your iPhone (step counts and Screen Time status, with your permission), and
+        from Apple (sign-in and subscription status). We don't collect your contacts, photos, location,
+        browsing history, advertising ID, or the content of other apps.
+      </p>
 
-<h2 id="collect">Personal information we collect</h2>
-<h3>Information you provide to us.</h3>
-<p>Personal information you may provide to us through the Service or otherwise includes:</p>
-<ul>
-<li><strong>Contact data</strong>, such as your email address.</li>
-<li><strong>Survey data</strong>, including information you share when you complete a survey, such as when you join our waitlist. Our waitlist survey asks for your approximate daily screen time and whether you would pay for an app like Nomira.</li>
-<li><strong>Communications data</strong> based on our exchanges with you, including when you contact us through the Service, by email, social media, or otherwise.</li>
-<li><strong>Marketing data</strong>, such as your preferences for receiving our marketing communications and details about your engagement with them.</li>
-<li><strong>Other data</strong> not specifically listed here, which we will use as described in this Privacy Policy or as otherwise disclosed at the time of collection.</li>
-</ul>
+      <h2>Screen Time and your app choices</h2>
+      <p>
+        Blocking runs on Apple's Screen Time. When you choose an app in Apple's picker, Apple gives Nomira a
+        sealed token that stays on your iPhone. We can't read it, and it never reaches our server; only a
+        short code made from it does, so your rules know which item is which. Apple's Screen Time decides
+        which apps are blocked on your phone. We don't see how long you spend in other apps or what you do in
+        them.
+      </p>
 
-<h3>Third-party sources.</h3>
-<p>We may combine personal information we receive from you with personal information falling within one of the categories identified above that we obtain from other sources, such as:</p>
-<ul>
-<li><strong>Service providers</strong> that provide services on our behalf or help us operate the Service or our business.</li>
-<li><strong>Business transaction partners.</strong> We may receive personal information in connection with an actual or prospective business transaction. For example, we may receive your personal information from an entity we acquire or are acquired by, a successor, or assignee or any party involved in a business transaction such as a merger, acquisition, sale of assets, or similar transaction, and/or in the context of an insolvency, bankruptcy, or receivership.</li>
-</ul>
+      <h2>Face ID and Touch ID</h2>
+      <p>
+        When you delete your account, Nomira asks your iPhone to confirm it's you with Face ID, Touch ID or
+        your passcode. Apple handles this on your phone. Nomira only learns yes or no. We never see or store
+        your face, fingerprint or passcode.
+      </p>
 
-<h3>Automatic data collection.</h3>
-<p>We, our service providers, and our business partners may automatically log information about you, your computer or mobile device, and your interaction over time with the Service, our communications and other online services, such as:</p>
-<ul>
-<li><strong>Device data</strong>, such as your computer or mobile device&rsquo;s operating system type and version, manufacturer and model, browser type, screen resolution, device type (e.g., phone, tablet), IP address, unique identifiers, language settings, and general location information such as city, state or geographic area.</li>
-<li><strong>Online activity data</strong>, such as pages or screens you viewed, how long you spent on a page or screen, the website you visited before browsing to the Service (including a tag in the link you used that identifies how you found us, such as a particular video or social media post), navigation paths between pages or screens, information about your activity on a page or screen, access times and duration of access, and whether you have opened our emails or clicked links within them.</li>
-<li><strong>Communication interaction data</strong> such as your interactions with our email or other communications (e.g., whether you open and/or forward emails) &mdash; we may do this through use of pixel tags (which are also known as clear GIFs), which may be embedded invisibly in our emails.</li>
-</ul>
-<p>For more information concerning our automatic collection of data, please see the <a href="#tracking">Tracking &amp; other technologies</a> section below.</p>
+      <h2>Steps</h2>
+      <p>
+        Step counts are health-related, so we treat them with extra care. We read them only during a walk you
+        start, use them only to check that walk, never use them for ads, and never sell or share them beyond
+        the providers below. You can turn off Motion &amp; Fitness access for Nomira in your iPhone settings
+        at any time; walks then stop working, and everything else keeps working.
+      </p>
 
-<h2 id="tracking">Tracking &amp; other technologies</h2>
-<p><strong>Cookies and other technologies.</strong> Some of our automatic data collection is facilitated by cookies, pixel tags and other technologies, including those used by the service providers that host our waitlist form and send our emails. We do not use these technologies for interest-based advertising.</p>
-<p>For information concerning your choices with respect to the use of tracking technologies, see the <a href="#choices">Your choices</a> section below.</p>
+      <h2>How we use it</h2>
+      <ul>
+        <li>To run the app: your plans, the Door, your limits, walks, progress and subscription.</li>
+        <li>
+          To keep it safe and working: preventing abuse and cheating, fixing crashes, and securing accounts.
+        </li>
+        <li>
+          To improve it: understanding which features help, mostly from counts rather than individual use.
+        </li>
+        <li>To follow the law and respond to lawful requests.</li>
+      </ul>
+      <p>
+        Nomira learns from your own Door history to pick the pauses that work for you and to warn you before
+        the hours you usually slip. This only changes how Nomira works for you. We don't use your data for
+        advertising, and we don't build profiles about you for anyone else.
+      </p>
 
-<h2 id="use">How we use your personal information</h2>
-<p>We may use your personal information for the following purposes or as otherwise described at the time of collection:</p>
+      <h2>Nomira's AI (adults only)</h2>
+      <p>
+        Nomira's AI is a computer program, not a person. It is only for adults aged 18 and older. If you are
+        13 to 17, the AI stays off: our server refuses to send anything a teen types to the AI, whatever is
+        chosen in the app. Everything else in Nomira works the same for teens.
+      </p>
+      <p>
+        For adults, the AI only reads what you type if you tap <strong>Allow</strong> on the screen that asks
+        first. You can change this any time in Settings → Privacy. With it off, nothing you type goes to the
+        AI; blocking still works, and you can still walk for time or use your emergency pass.
+      </p>
+      <p>
+        With it on, when you make your case at the Door (or try it during setup), we send what you typed, the
+        app you're opening, how many tries and unlocks you have left today, and your last few excuses and
+        their outcomes to <strong>Anthropic</strong> (the company that makes the Claude AI) to get a
+        recommendation. We don't send your name, email, account ID, goals or note about yourself. Nomira's own
+        server then makes the final decision using fixed limits the AI can't change.
+      </p>
+      <p>
+        Anthropic processes this for us under its commercial terms. It doesn't use it to train its models, and
+        it deletes it within 30 days, except that it may keep messages its safety systems flag (for up to 2
+        years) or where the law requires. See
+        <a href="https://nomira.app/safety">How the bouncer works and safety</a>.
+      </p>
 
-<h3>Service delivery and operations.</h3>
-<p>We may use your personal information to:</p>
-<ul>
-<li>provide the Service, including maintaining our waitlist;</li>
-<li>enable security features of the Service;</li>
-<li>communicate with you about the Service, including by sending Service-related announcements, updates about the launch of the Nomira app, invitations to test beta versions of the app, security alerts, and support and administrative messages; and</li>
-<li>provide support for the Service, and respond to your requests, questions and feedback.</li>
-</ul>
+      <h2>Analytics, cookies and tracking</h2>
+      <p>
+        The app doesn't use cookies or advertising IDs, and doesn't track you across other companies' apps or
+        websites. Crash reports (Sentry) and usage events (PostHog) are linked only to your random account ID
+        and never include what you type.
+      </p>
 
-<h3>Service improvement and analytics.</h3>
-<p>We may use your personal information to analyze your usage of the Service, improve the Service, improve the rest of our business, help us understand user activity on the Service, including which pages are most and least visited, how visitors find and move around the Service, as well as user interactions with our emails, and to develop new products and services, including the Nomira app and its features and pricing.</p>
+      <h2>Who else handles your data</h2>
+      <p>We use these service providers. Each one only gets what it needs to provide its service to us:</p>
+      <ul>
+        <li><strong>Supabase</strong> stores the account and app data above (our database and server).</li>
+        <li>
+          <strong>Anthropic</strong> receives what you type at the Door to suggest the AI's reply, only if you
+          are an adult and turned the AI on.
+        </li>
+        <li>
+          <strong>RevenueCat</strong> checks your App Store subscription and tells our server whether it is
+          active and when it ends.
+        </li>
+        <li><strong>Apple</strong> handles sign-in, payments, Face ID and Touch ID, and Screen Time.</li>
+        <li><strong>Sentry</strong> receives crash reports.</li>
+        <li><strong>PostHog</strong> receives usage events.</li>
+      </ul>
+      <p>
+        We don't sell or rent your personal information, and we don't share it for targeted advertising. We
+        disclose data only if the law requires it, to protect people's safety, to professional advisers (such
+        as lawyers or accountants) who must keep it confidential, or as part of a sale or transfer of the app,
+        in which case this policy still applies to it.
+      </p>
 
-<h3>Marketing.</h3>
-<p><strong>Direct marketing.</strong> We may send you direct marketing communications and may personalize these messages based on your needs and interests. You may opt out of our marketing communications as described in the <a href="#opt-out">Opt-out of communications</a> section below.</p>
+      <h2>How long we keep it</h2>
+      <ul>
+        <li>
+          <strong>What you type at the Door</strong> (excuses, reasons and the AI's replies) is erased after
+          90 days, or after 30 days if you choose that in Settings → Privacy. Only counts stay, so your stats
+          work.
+        </li>
+        <li><strong>Erase my Door history</strong> in Settings → Privacy erases all of it right away.</li>
+        <li>
+          <strong>Unused guest accounts</strong> (never signed in, unused for 30 days) are deleted
+          automatically.
+        </li>
+        <li>
+          <strong>Everything else</strong> is kept until you delete your account. Deleting it (Settings →
+          Delete account) removes your data from our database right away, including your plans and
+          subscription status. Copies in our providers' backups and logs are removed as those expire.
+        </li>
+        <li>
+          <strong>Purchase records</strong> are also kept by Apple and RevenueCat under their own policies,
+          because they handle the payment. Deleting your account doesn't cancel your subscription; cancel it
+          in your Apple ID settings.
+        </li>
+        <li><strong>At Anthropic</strong>, as described in "Nomira's AI" above.</li>
+      </ul>
 
-<h3>Compliance and protection.</h3>
-<p>We may use your personal information to:</p>
-<ul>
-<li>comply with applicable laws, lawful requests, and legal process, such as to respond to subpoenas, investigations or requests from government authorities;</li>
-<li>protect our, your or others&rsquo; rights, privacy, safety or property (including by making and defending legal claims);</li>
-<li>audit our internal processes for compliance with legal and contractual requirements or our internal policies;</li>
-<li>enforce the terms and conditions that govern the Service; and</li>
-<li>prevent, identify, investigate and deter fraudulent, harmful, unauthorized, unethical or illegal activity, including cyberattacks and identity theft.</li>
-</ul>
+      <h2>Age and teens</h2>
+      <p>
+        Nomira is for ages 13 and up. The app asks your age range at the start and stops anyone under 13
+        before any answers are saved. We don't knowingly collect personal information from children under 13.
+        If you believe a child under 13 is using Nomira, contact us and we'll delete the account.
+      </p>
+      <p>For teens aged 13 to 17:</p>
+      <ul>
+        <li>Nomira's AI is always off, and our server enforces it.</li>
+        <li>There are no ads, and we never use a teen's data for ads, sell it, or share it for ads.</li>
+        <li>We use a teen's data only to run the app, keep it safe and fix it, as described above.</li>
+        <li>
+          A parent or guardian can email us to see or delete their teen's data. Apple's own Screen Time and
+          Ask to Buy settings also apply.
+        </li>
+      </ul>
 
-<h3>Data sharing in the context of corporate events.</h3>
-<p>We may share certain personal information in the context of actual or prospective corporate events &mdash; for more information, see <a href="#share">How we share your personal information</a>, below.</p>
+      <h2>Your choices and rights</h2>
+      <p>
+        In the app you can see your history, erase what you typed, turn the AI on or off (adults), and delete
+        your account at any time.
+      </p>
+      <p>
+        <strong>Everyone</strong> can also email us to get a copy of their data, correct it, or delete it.
+        We'll confirm the request comes from the account holder, and we respond within 30 days (or sooner
+        where the law requires). We won't treat you differently for using these rights.
+      </p>
+      <p>
+        <strong>United States.</strong> Depending on your state (for example California, Colorado,
+        Connecticut, Virginia, Texas or Oregon), you may have the right to know what we collect, to access,
+        correct, delete or get a portable copy of it, and to opt out of its sale, its use for targeted
+        advertising, or profiling. We don't sell your data, share it for targeted advertising, or use it for
+        profiling with legal or similarly significant effects. You can use an authorised agent, and if we turn
+        down a request you can appeal by replying to our answer.
+      </p>
+      <p>
+        <strong>EU, UK and Switzerland.</strong> We use your data to provide the app you asked for (contract),
+        to keep it secure and improve it (our legitimate interests), with your consent for the AI and for step
+        counts (which you can withdraw at any time), and to meet legal obligations. You have the rights to
+        access, correct, delete, restrict, object to, and port your data, and to complain to your local data
+        protection authority.
+      </p>
 
-<h3>To create aggregated, de-identified and/or anonymized data.</h3>
-<p>We may create aggregated, de-identified and/or anonymized data from your personal information and other individuals whose personal information we collect. We make personal information into de-identified and/or anonymized data by removing information that makes the data identifiable to you and we will not attempt to reidentify any such data. We may use this aggregated, de-identified and/or anonymized data and share it with third parties for our lawful business purposes, including analyzing and improving the Service and promoting our business.</p>
+      <h2>Where your data is processed</h2>
+      <p>
+        We and our providers are based in, or process data in, the United States and other countries whose
+        privacy laws may differ from yours. Where the law requires it, transfers are protected by safeguards
+        such as standard contractual clauses.
+      </p>
 
-<p><strong>Further uses.</strong> In some cases, we may use your personal information for further uses, in which case we will ask for your consent to use your personal information for those further purposes if they are not compatible with the initial purpose for which information was collected.</p>
+      <h2>Security</h2>
+      <p>
+        Data travels over encrypted connections. Your sign-in is stored encrypted on your phone, with its key
+        in the iPhone Keychain. Our database only lets your account read its own rows, and decisions like
+        unlocking time are made on our server, not on the phone. No system is perfectly secure, but we work to
+        protect your data and will tell you if a breach affects it, as the law requires.
+      </p>
 
-<h2 id="retention">Retention</h2>
-<p>We generally retain personal information to fulfill the purposes for which we collected it, including for the purposes of satisfying any legal, accounting, or reporting requirements, establishing or defending legal claims, or for fraud prevention purposes. To determine the appropriate retention period for personal information, we may consider factors such as the amount, nature, and sensitivity of the personal information, the potential risk of harm from unauthorized use or disclosure of your personal information, the purposes for which we process your personal information and whether we can achieve those purposes through other means, and the applicable legal requirements.</p>
-<p>When we no longer require the personal information we have collected about you, we may either delete it, anonymize it, or isolate it from further processing. You may also ask us to delete your personal information at any time by contacting us as described in the <a href="#contact">How to contact us</a> section below.</p>
+      <h2>Our website and waitlist</h2>
+      <p>
+        This policy covers the Nomira app. Our website and waitlist sign-up form (your email and survey
+        answers) are covered by our <a href="https://nomira.app/privacy/waitlist/">waitlist privacy policy</a>.
+      </p>
 
-<h2 id="share">How we share your personal information</h2>
-<p>We do not sell your personal information, and we do not share it for interest-based advertising. We may share your personal information with the following parties (or as otherwise described in this Privacy Policy, in other applicable notices, or at the time of collection).</p>
-<ul>
-<li><strong>Service providers.</strong> Third parties that provide services on our behalf or help us operate the Service or our business (such as hosting, information technology, form and survey hosting, customer support, email delivery, and email forwarding). Our service providers currently include Tally (waitlist form), beehiiv (email delivery), Porkbun (domain and email forwarding), GitHub (website hosting), and Google (email).</li>
-<li><strong>Third parties designated by you.</strong> We may share your personal information with third parties where you have instructed us or provided your consent to do so.</li>
-<li><strong>Professional advisors.</strong> Professional advisors, such as lawyers, auditors, bankers and insurers, in the course of the professional services that they render to us.</li>
-<li><strong>Authorities and others.</strong> Law enforcement, government authorities, and private parties, as we believe in good faith to be necessary or appropriate for the Compliance and protection purposes described above.</li>
-<li><strong>Business transferees.</strong> We may disclose personal information in the context of actual or prospective business transactions (<em>e.g.,</em> investments in Nomira, financing of Nomira, public stock offerings, or the sale, transfer or merger of all or part of our business, assets or shares). For example, we may need to share certain personal information with prospective counterparties and their advisers. We may also disclose your personal information to an acquirer, successor, or assignee of Nomira as part of any merger, acquisition, sale of assets, or similar transaction, and/or in the event of an insolvency, bankruptcy, or receivership in which personal information is transferred to one or more third parties as one of our business assets.</li>
-</ul>
+      <h2>Changes</h2>
+      <p>
+        If we change this policy, we'll update the date above. If a change matters, we'll tell you in the app
+        before it applies.
+      </p>
 
-<h2 id="choices">Your choices</h2>
-<p>In this section, we describe the rights and choices available to all users. Users who are located in certain U.S. states can find additional information about their rights <a href="#state-privacy-rights">below</a>.</p>
-<p><strong>Access, update, or delete your information.</strong> You may ask us to provide, correct, or delete the personal information we hold about you by contacting us as described in the <a href="#contact">How to contact us</a> section below.</p>
-<p id="opt-out"><strong>Opt-out of communications.</strong> You may opt out of marketing-related emails by following the opt-out or unsubscribe instructions at the bottom of the email, or by contacting us. Please note that if you choose to opt out of marketing-related emails, you may continue to receive service-related and other non-marketing emails.</p>
-<p><strong>Blocking images/clear gifs.</strong> Most browsers and devices allow you to configure your device to prevent images from loading. To do this, follow the instructions in your particular browser or device settings.</p>
-<p><strong>Cookies.</strong> Most browsers let you remove or reject cookies. To do this, follow the instructions in your browser settings. Please note that if you reject cookies, some features of the Service may not work properly.</p>
-<p><strong>Do Not Track.</strong> Some Internet browsers may be configured to send &ldquo;Do Not Track&rdquo; signals to the online services that you visit. We currently do not respond to &ldquo;Do Not Track&rdquo; signals. We do not track users across third-party websites over time, and we do not permit third parties to do so through the Service for advertising purposes.</p>
-<p><strong>Declining to provide information.</strong> We need to collect personal information to provide certain services. If you do not provide the information we identify as required or mandatory, we may not be able to provide those services. For example, we need your email address to add you to our waitlist.</p>
-
-<h2 id="other-sites">Other sites and services</h2>
-<p>The Service may contain links to websites, mobile applications, and other online services operated by third parties. In addition, our content may be integrated into web pages or other online services that are not associated with us. These links and integrations are not an endorsement of, or representation that we are affiliated with, any third party. We do not control websites, mobile applications or online services operated by third parties, and we are not responsible for their actions. We encourage you to read the privacy policies of the other websites, mobile applications and online services you use.</p>
-
-<h2 id="security">Security</h2>
-<p>We employ technical, organizational and physical safeguards designed to protect the personal information we collect. However, security risk is inherent in all internet and information technologies and we cannot guarantee the security of your personal information.</p>
-
-<h2 id="transfer">International data transfer</h2>
-<p>We are headquartered in the United States and may use service providers that operate in other countries. Your personal information may be transferred to the United States or other locations where privacy laws may not be as protective as those in your state, province, or country.</p>
-
-<h2 id="children">Children</h2>
-<p>The Service is not intended for use by anyone under 13 years of age, and we do not knowingly collect personal information from children under 13. If you are a parent or guardian of a child from whom you believe we have collected personal information in a manner prohibited by law, please contact us. If we learn that we have collected personal information through the Service from a child without the consent of the child&rsquo;s parent or guardian as required by law, we will comply with applicable legal requirements to delete the information.</p>
-
-<h2 id="changes">Changes to this Privacy Policy</h2>
-<p>We reserve the right to modify this Privacy Policy at any time. If we make material changes to this Privacy Policy, we will notify you by updating the date of this Privacy Policy and posting it on the Service or other appropriate means. Any modifications to this Privacy Policy will be effective upon our posting the modified version (or as otherwise indicated at the time of posting). In all cases, your use of the Service after the effective date of any modified Privacy Policy indicates your acknowledging that the modified Privacy Policy applies to your interactions with the Service and our business.</p>
-
-<h2 id="contact">How to contact us</h2>
-<p>If you have questions about our practices or if you would like to exercise any privacy related right that may be available to you, please contact us via one of the methods listed below.</p>
-<ul>
-<li><strong>Email:</strong> <a href="mailto:hello@nomira.app">hello@nomira.app</a></li>
-<li><strong>Mail:</strong> <address style="display:inline">Nomira, 9250 Reseda Blvd, Unit 10034, Northridge, CA 91324, United States</address></li>
-</ul>
-
-<h2 id="state-privacy-rights">State privacy rights notice</h2>
-<p>Except as otherwise provided, this section applies to residents of U.S. states to the extent they have privacy laws applicable to us that grant their residents the rights described below (collectively the &ldquo;<strong>State Privacy Laws</strong>&rdquo;).</p>
-<p>This section describes how we collect, use, and share Personal Information of residents of these states and the rights these users may have with respect to their Personal Information. Please note that not all rights listed below may be afforded to all users and that if you are not a resident of one of these states, you may not be able to exercise these rights. In addition, <strong>we may not be able to process your request if you do not provide us with sufficient detail to allow us to confirm your identity or understand and respond to it. Generally, we will verify a request by confirming that it was sent from, or can be confirmed through, the email address associated with your information.</strong></p>
-<p>For purposes of this section, the term &ldquo;<strong>Personal Information</strong>&rdquo; has the meaning given to &ldquo;personal data&rdquo;, &ldquo;personal information&rdquo; or other similar terms and &ldquo;<strong>Sensitive Personal Information</strong>&rdquo; has the meaning given to &ldquo;sensitive personal information,&rdquo; &ldquo;sensitive data&rdquo;, or other similar terms in the State Privacy Laws, except that in neither case does such term include information exempted from the scope of the State Privacy Laws.</p>
-
-<p><strong>Your privacy rights.</strong> The State Privacy Laws may provide residents with some or all of the rights listed below. However, these rights are not absolute and some State Privacy Laws do not provide these rights to their residents. Therefore, we may decline your request in certain cases as permitted by law.</p>
-<ul>
-<li><strong>Information.</strong> You can request the following information about how we have collected and used your Personal Information:
-  <ul>
-  <li>The categories of Personal Information that we have collected.</li>
-  <li>The categories of sources from which we collected Personal Information.</li>
-  <li>The business or commercial purpose for collecting and/or selling Personal Information.</li>
-  <li>The categories of third parties with which we share Personal Information.</li>
-  <li>The categories of Personal Information that we sold or disclosed for a business purpose.</li>
-  <li>The categories of third parties to whom the Personal Information was sold or disclosed for a business purpose.</li>
-  </ul></li>
-<li><strong>Access.</strong> You can request a copy of the Personal Information that we have collected about you.</li>
-<li><strong>Appeal.</strong> You can appeal our denial of any request validly submitted.</li>
-<li><strong>Correction.</strong> You can ask us to correct inaccurate Personal Information that we have collected about you.</li>
-<li><strong>Deletion.</strong> You can ask us to delete the Personal Information that we have collected from you.</li>
-<li><strong>Opt-out.</strong>
-  <ul>
-  <li><strong>Opt-out of certain processing for targeted advertising purposes.</strong> We do not process your personal information for targeted advertising purposes.</li>
-  <li><strong>Opt-out of or appeal profiling/automated decision making.</strong> We do not use your Personal Information to engage in profiling or to perform automated decision-making that results in significant financial impacts, significant impacts on housing, education, employment, health care, or criminal justice, or similarly significant impacts.</li>
-  <li><strong>Opt-out of other sales of personal data.</strong> We do not sell your Personal Information within the meaning of State Privacy Laws.</li>
-  </ul></li>
-<li><strong>Consumers under 16.</strong> We do not have actual knowledge that we collect, sell or share the personal information of consumers under 16 years of age.</li>
-<li><strong>Sensitive Personal Information.</strong> We do not intentionally collect or process Sensitive Personal Information.</li>
-</ul>
-<p><strong>Nondiscrimination.</strong> You are entitled to exercise the rights described above free from discrimination as prohibited by the State Privacy Laws.</p>
-<p><strong>Exercising your state privacy rights.</strong> You may submit requests to exercise any of the state privacy rights listed above via email to <a href="mailto:hello@nomira.app">hello@nomira.app</a>.</p>
-<p><strong>Verification of Identity; Authorized agents.</strong> We may need to verify your identity in order to process your information/know, access, appeal, correction, or deletion requests and reserve the right to confirm your residency. To verify your identity, we may require a declaration under penalty of perjury, or other information, where permitted by law.</p>
-<p>Under some State Privacy Laws, you may enable an authorized agent to make a request on your behalf. However, we may need to verify your authorized agent&rsquo;s identity and authority to act on your behalf. We may require a copy of a valid power of attorney given to your authorized agent pursuant to applicable law. If you have not provided your agent with such a power of attorney, we may ask you to take additional steps permitted by law to verify that your request is authorized, such as by providing your agent with written and signed permission to exercise your State Privacy Laws rights on your behalf, the information we request to verify your identity, and confirmation that you have given the authorized agent permission to submit the request.</p>
-
-<p><strong>Information practices.</strong> The following describes our practices currently and during the past 12 months:</p>
-<ul>
-<li><strong>Sources and purposes.</strong> We collect all categories of personal information from the sources and use them for the business/commercial purposes described above in the Privacy Policy.</li>
-<li><strong>Retention.</strong> The criteria for deciding how long to retain personal information is generally based on whether such period is sufficient to fulfill the purposes for which we collected it as described in this notice, including complying with our legal obligations.</li>
-<li><strong>Deidentification.</strong> We do not attempt to reidentify deidentified information derived from personal information, except for the purpose of testing whether our deidentification processes comply with applicable law.</li>
-</ul>
-
-<p><strong>Personal information that we collect, use and disclose.</strong> We have summarized the Personal Information we collect, the purposes for which we collect it and the third parties to whom we may disclose it by reference below to both the categories defined in the <a href="#collect">Personal information we collect</a> section of this Privacy Policy above and the categories of Personal Information specified in the CCPA (Cal. Civ. Code §1798.140). This chart describes our practices currently and during the 12 months preceding the effective date of this Privacy Policy. Information you voluntarily provide to us, such as in free-form webforms or emails, may contain other categories of personal information not described below.</p>
-<div class="tw"><table>
-<tr><th>Personal Information (&ldquo;PI&rdquo;) we collect</th><th>CCPA statutory category</th><th>Purposes</th><th>Categories of third parties to whom we &ldquo;disclose&rdquo; PI for a business purpose</th><th>Categories of third parties to whom we &ldquo;sell&rdquo; or &ldquo;share&rdquo; PI</th></tr>
-<tr><td>Contact data</td><td>Identifiers</td><td>Service delivery and operations; Marketing; Compliance and protection</td><td>Service providers; Professional advisors; Authorities and others; Business transferees</td><td>None</td></tr>
-<tr><td>Survey data</td><td>Commercial information</td><td>Service delivery and operations; Service improvement and analytics</td><td>Service providers; Professional advisors; Authorities and others; Business transferees</td><td>None</td></tr>
-<tr><td>Communications data</td><td>Identifiers; Commercial information</td><td>Service delivery and operations; Compliance and protection</td><td>Service providers; Professional advisors; Authorities and others; Business transferees</td><td>None</td></tr>
-<tr><td>Marketing data</td><td>Internet or other electronic network activity information</td><td>Marketing; Service improvement and analytics</td><td>Service providers; Professional advisors; Authorities and others; Business transferees</td><td>None</td></tr>
-<tr><td>Device data</td><td>Identifiers; Internet or other electronic network activity information</td><td>Service delivery and operations; Service improvement and analytics; Compliance and protection</td><td>Service providers; Professional advisors; Authorities and others; Business transferees</td><td>None</td></tr>
-<tr><td>Online activity data; Communication interaction data</td><td>Internet or other electronic network activity information</td><td>Service improvement and analytics; Marketing</td><td>Service providers; Professional advisors; Authorities and others; Business transferees</td><td>None</td></tr>
-</table></div>
-
-<p><strong>Additional information for California residents.</strong></p>
-<p><strong>Shine the light law.</strong> Under California&rsquo;s Shine the Light law (California Civil Code Section 1798.83), California residents may ask companies with whom they have formed a business relationship primarily for personal, family or household purposes to provide the names of third parties to which they have disclosed certain personal information (as defined under the Shine the Light law) during the preceding calendar year for their own direct marketing purposes, and the categories of personal information disclosed. We do not disclose personal information to third parties for their own direct marketing purposes. You may send us requests for this information to <a href="mailto:hello@nomira.app">hello@nomira.app</a>. In your request, you must include the statement &ldquo;Shine the Light Request,&rdquo; and provide your first and last name and mailing address and certify that you are a California resident. We reserve the right to require additional information to confirm your identity and California residency. Please note that we will not accept requests via telephone, mail, or facsimile, and we are not responsible for notices that are not labeled or sent properly, or that do not have complete information.</p>
-<p><strong>Additional information for Nevada residents.</strong> Nevada residents have the right to opt-out of the sale of certain personal information for monetary consideration. While we do not currently engage in such sales, if you are a Nevada resident and would like to make a request to opt out of any potential future sales, please email <a href="mailto:hello@nomira.app">hello@nomira.app</a>.</p>
-
-<p><strong>Contact Us.</strong> If you have questions or concerns about our privacy policies or information practices, please contact us using the contact details set forth in the <a href="#contact">How to contact us</a> section above.</p>
-
-<footer><a href="/">nomira.app</a></footer>
-</main>
-</body>
+      <h2>Contact</h2>
+      <p>Questions or requests: <a href="mailto:hello@nomira.app">hello@nomira.app</a></p>
+    </main>
+  </body>
 </html>
